@@ -46,6 +46,7 @@ microphone:
   - platform: i2s_audio
     id: echo_microphone
     i2s_din_pin: GPIO23
+# i2s_din_pin: GPIO21 for custom hardware
     adc_type: external
     pdm: true
 
